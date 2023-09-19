@@ -22,7 +22,7 @@ public class FoodAnalyzerService implements Service {
     private static final String API_ENDPOINT_REPORT_PATH = "/fdc/v1/food/%d";
     private static final String API_ENDPOINT_SEARCH_QUERY = "api_key=%s&query=%s&requireAllWords=true";
     private static final String API_ENDPOINT_REPORT_QUERY = "api_key=%s";
-    private static final String API_KEY = "WClXpu3aU18wfLgMPeUXGQ44j9QRcVmw0kRFXjOr";
+    private static final String API_KEY = "";
     private static final String PARAM_DELIMITER = " ";
     public static final String INVALID_FOOD_NAMES_MSG = "foodNames cannot be null or an empty list";
     public static final String COULD_NOT_RETRIEVE_FOODS_MSG = "Could not retrieve food information";
