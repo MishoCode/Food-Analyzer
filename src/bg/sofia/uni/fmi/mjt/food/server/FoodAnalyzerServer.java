@@ -104,7 +104,7 @@ public class FoodAnalyzerServer {
 
         } catch (IOException e) {
             LOGGER.log(Level.SEVERE, FAILED_COMMUNICATION_MSG, e);
-            //throw new ServerSocketException(SERVER_SOCKET_ERROR_MSG, e);
+            throw new ServerSocketException(SERVER_SOCKET_ERROR_MSG, e);
         }
     }
 
